@@ -2,6 +2,7 @@
 
 This folder contains files to run inference on the best CNN models.
 The notebook `Model_inference.ipynb` performs the model inference.
+The notebook `Analyze_models.ipynb` plots ROC curves for models.
 
 ## Input data
 The input data needs to be in the following form: 

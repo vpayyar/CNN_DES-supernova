@@ -5,20 +5,10 @@ This repository contains codes used to run training and inference of 2D layered 
 # Dataset
 The actual data used for training can be obtained using the information in https://portal.nersc.gov/project/dessn/autoscan/
 
-# Repository information
-The Table below describes the content of various folders in this repository
-
-| Description | Location |
-| --- | ---|
-| Setting up the conda environment| conda_env/ | 
-| Code to run inference on the stored models| model_inference/ | 
-| Code to train new models | train_code/ | 
-
-
 # Running Inference
-
-To run inference on the best CNN model, use the code in the folder `model_inference/Model_inference.ipynb`
-The best CNN model is stored at https://portal.nersc.gov/project/m3363/vayyar_des_cnn/
+To run inference on the best CNN model, use the code in the folder `model_inference/Model_inference.ipynb`.
+For further info see the README file `model_inference/README.md`.
+The best CNN model is stored at https://portal.nersc.gov/project/m3363/vayyar_des_cnn/.
 
 # Training new models
 New models can be trained using the code in the folder `train_code/`. The model architecture is defined in the file `models.py`.

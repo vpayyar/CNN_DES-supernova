@@ -18,7 +18,7 @@ The Table below describes the content of various folders in this repository
 # Running Inference
 
 To run inference on the best CNN model, use the code in the folder `model_inference/Model_inference.ipynb`
-The best CNN model along with sample data is stored at https://portal.nersc.gov/project/m3363/vayyar_des_cnn/
+The best CNN model is stored at https://portal.nersc.gov/project/m3363/vayyar_des_cnn/
 
 # Training new models
 New models can be trained using the code in the folder `train_code/`. The model architecture is defined in the file `models.py`.
